@@ -11,11 +11,11 @@ app.use(express.static(path.join(__dirname, "client")));
 app.use(bodyParser.json());
 
 const publicVapidKey =
-  "BJthRQ5myDgc7OSXzPCMftGw-n16F7zQBEN7EUD6XxcfTTvrLGWSIG7y_JxiWtVlCFua0S8MTB5rPziBqNx1qIo";
-const privateVapidKey = "3KzvKasA2SoCxsp0iIG_o9B0Ozvl1XDwI63JRKNIWBM";
+  "BNQ6B4tn2jL4vSQILSrRJoMSn8XITG3Jyl7D-mWSqe1HZgY9HwilFJV2aLa2cKQg8UrpNlTJCozUtk57HIgzH3A";
+const privateVapidKey = "lcjLMiOQSo6bXlVvB8A8d-79bPqQkzN840FZ1F1wc3Q";
 
 webpush.setVapidDetails(
-  "mailto:test@test.com",
+  "ilias.abai.alser@gmail.com",
   publicVapidKey,
   privateVapidKey
 );
